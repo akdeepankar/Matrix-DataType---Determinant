@@ -1,7 +1,7 @@
 # Matrix-Module / Library
-Made Using Object Oriented Programming Concepts such as Classes, Methods, Inheritance and Polymorphism.
-After Creating an Object for the Class, The Methods take inputs for Order 2 and 3 Type Matrix and give the result of its Determinant. 
-As Well as you can Find The value of x y z using Cramers Rule in a System of Linear Equation of order 2 and 3 in the Form of Ax = B. 
+Coded Using Object Oriented Programming Concepts such as Classes, Methods, Inheritance and Polymorphism.
+After Creating an Object for the Class, The Methods takes Arguments/Parameters for Order 2 and 3 Type Matrix and output the result of its Determinant. 
+You can also Find The value of x y z using Cramers Rule in a System of Linear Equation of order 2 and 3 in the Form of Ax = B. 
 The Adjugate/Adjoint of a Matrix along with its cofactor Matrix as well as the Inverse of a Matrix.
 
 ![Matrix](https://user-images.githubusercontent.com/62662701/215990008-2cc7d7d9-b7f7-4089-9ea4-e28583c6bc97.png)
