@@ -1,4 +1,4 @@
-#This File was Created by AK DEEPANKAR
+#This is a Personal Project Created by AK DEEPANKAR
 #First Year, BS Data Science, IIT Madras (FEB, 2022)
 
 class Determinant:
