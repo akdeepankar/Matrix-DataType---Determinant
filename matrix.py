@@ -11,10 +11,12 @@ class Determinant:
     temp1 = a11 * a22
     temp2 = a12 * a21
     temp = temp1 - temp2
-    if temp == 0:
-     return (temp)
-    else:
-     print("Determinant is 0") 
+    if temp == 0:     
+      print("Determinant is 0")
+    else: 
+      print(temp)
+    
+    return (temp)
 
   def order3(a11, a12, a13, a21, a22, a23, a31, a32, a33):
     tempa1 = a22 * a33 - a23 * a32
@@ -25,9 +27,11 @@ class Determinant:
     tempc = a13 * tempc1
     det = tempa - tempb + tempc
     if det == 0:
-      print("Determinant is 0")
+      print("Determinant is 0") 
     else:
-      return (det)
+      print(det)
+    
+    return (det)
 
 
 class Cramer(Determinant):
@@ -64,6 +68,7 @@ class Cramer(Determinant):
       print(ax2)
 
       ax3 = Determinant.order3(a11, a12, b1, a21, a22, b2, a31, a32, b3)
+      
       print(ax3)
 
       x1 = ax1 / det
